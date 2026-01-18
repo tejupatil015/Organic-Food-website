@@ -355,3 +355,32 @@ section{
     padding: 2rem 1rem;
     transition: all 0.3s;
 }
+.landing_product_section .product-card .product-img{
+    margin-bottom: 7rem;
+    text-align: center;
+}
+.landing_product_section .product-card{
+    color: var(--primary-text);
+}
+.landing_product_section .product-card span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--seconday-clr);
+    margin-right: 0.5rem;
+    text-decoration: line-through;
+    transition: 0.3s;
+}
+.landing_product_section .product-card .product-detail{
+    position: absolute;
+    bottom: -22rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color:var(--dark-clr) ;
+    transition: all 0.5s ease;
+}
+.landing_product_section .product-card:hover .product-detail{
+    bottom: 0;
+}
