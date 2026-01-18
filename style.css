@@ -16,6 +16,7 @@
 
 :root{
     --bg-white:#fff;
+    --bg-dark-clr: #03262c;
 
     --primary-text:#061738;
     --seconday-clr: #68cd12;
@@ -66,12 +67,7 @@ h2{
     line-height: 1.2;
     margin-bottom: 2rem;
 }
-h3{
-    font-size: 3.1rem;
-    color: var(--text-white);
-    font-weight: 700;
-    line-height: 1.2;
-}
+/*
 h4{
     
     font-size:2.5rem;
@@ -79,6 +75,7 @@ h4{
     font-weight: 700;
     line-height: 1;
 }
+    */
 h5{
     
     font-size: 1.8rem;
@@ -279,4 +276,82 @@ section{
     max-width: 40rem;
     margin-bottom: 2rem;
     margin-top: 1.3rem;
+}
+
+/* Feature section*/
+
+.feature_section .features-box{
+    background: transparent;
+    border: 0.15rem solid var(--light-clr);
+    padding: 8rem 0;
+    transition: all 0.3s;
+}
+.feature_section .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--light-clr);
+    padding: 1.3rem;
+    display: inline-block;
+}
+.feature_section .features-box .features-icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color: var(--light-clr);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature_section .features-box .features-icon img{
+    width: 3.7rem;
+    margin-bottom: 1rem;
+}
+.feature_section .features-box .h3{
+    margin-top:  1.5rem;
+    color: var(--primary-text);
+
+}
+.feature_section .features-box:hover{
+    background-color: var(--bg-dark-clr);
+    border-color: var(--bg-dark-clr);
+}
+.feature_section .features-box:hover h3{
+    color: var(--text-white);
+}
+.feature_section .features-box:hover .features-icon-border{
+    border-color: var(--seconday-clr);
+}
+
+/* about section*/
+.landing_about_section{
+    background:url('about/about-banner.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 9rem 0;
+}
+.fonth1{
+    padding: 0.5rem;
+    display: inline;
+    font-size: 3.3rem;
+    color: var(--dark-clr);
+    font-family: var(--secondaary-font);
+}
+.fw-bold{
+    margin-top: 1.8rem;
+}
+.landing_about_section p{
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}
+
+/*Product */
+.landing_product_section .product-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.2rem solid var(--light-clr);
+    padding: 2rem 1rem;
+    transition: all 0.3s;
 }
