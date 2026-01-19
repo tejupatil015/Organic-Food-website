@@ -549,3 +549,6 @@ section {
 
 
 /* about section*/
+.about .about-details p {
+    background-color: var(--primary-font);
+}
