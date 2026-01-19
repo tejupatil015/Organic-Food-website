@@ -439,3 +439,13 @@ section{
     height: 100%;
     object-fit: cover;
 }
+
+.footer_wrapper{
+    background:url('about/footer_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  top center;
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+
+}
