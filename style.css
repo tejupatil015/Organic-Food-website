@@ -564,3 +564,51 @@ section {
     padding: 5rem;
     box-shadow:  0 0.2rem 1.5rem rgba(0 0 0/4%);
 }
+
+.contact .contact_form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}   
+.contact .contact_form .form-control::placeholder{
+    color: var(--primary-text);
+
+}
+.contact .contact_form .form-control{
+    border: 0.1rem solid var(--seconday-clr);
+    padding: 1rem 1.5rem;
+    border-radius: 0rem;
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--secondaary-font);
+}
+.contact .contact_form textarea{
+    min-height: 15rem;
+}
+.contact .contact_form .info-box li{
+    position: relative;
+    padding-left: 7rem;
+    padding-bottom: 3.5rem;
+    margin-bottom: 2.9rem;
+}
+.contact .contact_form .info-box li i{
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: var(--primary-text);
+}
+
+.contact .contact_form .info-box li p{
+    color: var(--primary-text);
+}
+
+
+.contact .contact_form .info-box li a{
+    color: var(--bg-dark-clr);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: var(--secondaary-font);
+}
