@@ -552,3 +552,8 @@ section {
 .about .about-details p {
     background-color: var(--primary-font);
 }
+
+/* product section*/
+.product .product-content p {
+    margin-bottom: 1.5rem;
+}
