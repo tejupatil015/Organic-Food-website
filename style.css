@@ -557,3 +557,10 @@ section {
 .product .product-content p {
     margin-bottom: 1.5rem;
 }
+
+/* contact section*/
+.contact .contact_form {
+    background-color: var(--light-clr);
+    padding: 5rem;
+    box-shadow:  0 0.2rem 1.5rem rgba(0 0 0/4%);
+}
