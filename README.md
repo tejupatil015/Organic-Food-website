@@ -53,6 +53,6 @@ Git & GitHub – Version control and project hosting
 
 
 Live Demo:
-view website:
+view website: https://tejupatil015.github.io/Organic-Food-website/
 
 ---
